@@ -17,7 +17,9 @@
 # - Answering some questions at the end of this problem
 
 # ### Part 1: Creating a script file (1 point)
-# 
+from temp_functions import temp_functions
+print("using temp_functions(import from temp_functions.py")
+temp_functions()
 # For this part you should
 # 
 # - Create a new script file called `temp_functions.py` in the current directory as we saw in the Lesson 4 materials. Copy and paste the functions that you wrote in Problems 1 and 2 into that script file (i.e., the `fahr_to_celsius` and `temp_classifier` functions)
