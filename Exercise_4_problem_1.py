@@ -19,6 +19,8 @@
 # - Adding comments in your code and a docstring that explains how to use your `fahr_to_celsius` function (i.e., you should write the purpose of the function, parameters, and returned values)
 
 # YOUR CODE HERE
+def temp_fahrenheit(fahr_to_celsius):
+  return (fahr_to_celsius-32)/1.8
 
 # ### Problem 1 tests
 # 
@@ -27,6 +29,8 @@
 # 2. What about 71° Fahrenheit in Celsius?
 
 # ### Check your code
+print("The freezing point of water in Fahrenheit is:", fahr_to_celsius(48))
+print("The freezing point of water in Fahrenheit is:", fahr_to_celsius(71))
 # 
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
@@ -43,8 +47,8 @@
 
 # YOUR ANSWER HERE. Write your answers as comments
 #
-#
-#
+# 1. Yes. But I had a hard time actually writing
+# 2. The benefits of using function is can be calculate the function correctly.
 #
 
 # #### Done!
